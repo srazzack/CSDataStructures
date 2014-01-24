@@ -15,7 +15,7 @@ LinkedList.prototype = {
 		}, current;
 		//special case: not items present in the list yet
 
-		if(this.head = null){
+		if(this.head === null){
 			this.head = node;
 		}
 		else {
